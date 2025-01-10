@@ -275,3 +275,51 @@ table td select {
 .news-content button {
   margin-top: 32px;
 }
+
+/* donate styles start */
+.donate {
+  margin: 80px 0;
+  /* padding: 0 100px; */
+  text-align: center;
+}
+
+.donate-amounts,
+.others-amount {
+  padding: 0 100px;
+}
+.donate-description p {
+  padding: 32px 60px;
+}
+.donate-amounts {
+  width: 1071px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 24px;
+}
+.donate-amounts p {
+  font-weight: bold;
+  font-size: 40px;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 15%);
+  border-radius: 16px;
+  background-color: var(--deepWhite);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.donate-amounts p:nth-child(2) {
+  background-color: #c6e4d6;
+}
+.donate-amounts p:hover {
+  background-color: #b8ecd4;
+}
+.others-amount input {
+  width: 900px;
+  padding: 20px 40px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 15%);
+  text-align: center;
+  margin: 32px 0;
+}
+/* donate styles end */
