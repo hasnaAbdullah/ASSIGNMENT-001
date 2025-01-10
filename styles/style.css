@@ -13,7 +13,6 @@
   --darkGreen: #006a50;
   --lightGreen: #c6e4d6;
   --darkSky: #5490f5;
-  --lightSky: #81b4fc;
 }
 body:not(i) {
   font-family: "Fira Sans", serif;
@@ -121,3 +120,73 @@ nav .sign-in-btn {
   padding: 24px 0 16px 0;
 }
 /* pillars of BD styles end*/
+
+/* vision section styles start*/
+.second-btn {
+  padding: 11px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--deepWhite);
+  border: none;
+}
+
+.future-vision .vision-description p {
+  padding-top: 24px;
+}
+.visions {
+  display: flex;
+  column-gap: 24px;
+  margin: 32px 0;
+}
+.visions .vision {
+  padding: 32px;
+  border-radius: 16px;
+  width: 410px;
+  height: 250px;
+}
+.vision h5 {
+  padding: 24px 0 16px 0;
+}
+.vision p {
+  padding: 0px 0 24px 0;
+}
+.visions .v-one {
+  background-color: rgba(84, 144, 245, 20%);
+}
+.visions .v-one button {
+  background-color: var(--darkSky);
+}
+.visions .v-two {
+  background-color: #c6e4d6;
+}
+.visions .v-two button {
+  background-color: #09a15c;
+  margin-top: 20px;
+}
+.visions .v-three {
+  background-color: #f7ebcf;
+}
+.visions .v-three button {
+  background-color: #ffc239;
+}
+
+.quote {
+  padding: 40px 24px;
+  background-color: var(--deepWhite);
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 12px;
+  border: 2px solid rgba(14, 14, 14, 10%);
+  border-radius: 16px;
+}
+.quote h5 {
+  padding-top: 15px;
+}
+.quote p {
+  color: rgba(14, 14, 14, 60%);
+}
+.quote p.quote-speech {
+  color: rgba(14, 14, 14, 80%);
+}
+/* future of vision and quote end here */
