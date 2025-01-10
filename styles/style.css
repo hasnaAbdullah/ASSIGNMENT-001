@@ -67,8 +67,8 @@ footer {
 }
 main section {
   width: 100%;
+  margin: 0;
 }
-
 /* header styles start */
 header nav {
   display: flex;
@@ -98,5 +98,26 @@ nav .sign-in-btn {
 .banner-content h1 {
   margin: 16px 0 24px 0;
 }
-
 /* header style end */
+
+/* pillars of BD styles start*/
+.pillars-of-bd {
+  margin: 80px 0;
+}
+.pillars {
+  display: flex;
+  margin-top: 32px;
+  column-gap: 24px;
+}
+.pillars .pillar {
+  padding: 24px;
+  width: 302px;
+  height: 200px;
+  border-radius: 16px;
+  background-color: var(--deepWhite);
+  border: 2px solid rgba(14, 14, 14, 15%);
+}
+.pillar h5 {
+  padding: 24px 0 16px 0;
+}
+/* pillars of BD styles end*/
