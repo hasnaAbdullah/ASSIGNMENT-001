@@ -323,3 +323,40 @@ table td select {
   margin: 32px 0;
 }
 /* donate styles end */
+
+/* newsletter styles start */
+.newsletter-container {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.newsletter {
+  width: 750px;
+  padding: 80px 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.newsletter > p {
+  width: 600px;
+  margin: 24px auto;
+}
+.newsletter form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsletter form input {
+  width: 510px;
+  padding: 18px 40px;
+  font-size: 16px;
+  border: none;
+  outline: 0;
+  border-radius: 8px 0 0 8px;
+}
+.newsletter form .subscribe-btn {
+  width: 150px;
+  border-radius: 0 8px 8px 0;
+}
+form p {
+  margin-top: 24px;
+}
+/* newsletter end */
